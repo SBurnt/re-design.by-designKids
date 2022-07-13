@@ -7,7 +7,7 @@
 				</div>
 				<div class="form__content" id="form-scroll">
 					<span class="section__subtitle">Получить бесплатную консультацию или</span>
-					<h2 class="section__title">Записаться в лагерь</h2>
+					<h2 class="section__title">Записаться на обучение в группу</h2>
 					<form class="form__feedback" method="POST" data-netlify="true">
 						<label class="form__label">
 							<input class="form__input input-child" type="text" name="child" onkeyup="this.setAttribute('value', this.value);" value>
@@ -25,7 +25,7 @@
 							<input class="form__input input-tel" type="tel" inputmode="tel" name="tel" onkeyup="this.setAttribute('value', this.value);" value>
 							<span class="form__input-placeholder">Телефон</span>
 						</label>
-						<div class="form__select-wrap">
+						{# <div class="form__select-wrap">
 							<select class="form__select form__input js-form-select input-change" name="change">
 								<option value="">Смена</option>
 								<option value="Смена 1">Смена 1</option>
@@ -40,8 +40,8 @@
 								<option value="Неполный день">Неполный день</option>
 								<option value="Нужна консультация">Нужна консультация</option>
 							</select>
-						</div>
-						{# <input class="input-type" type="hidden" name="type" value="Консультация"> #}
+						</div> #}
+						<input class="input-type" type="hidden" name="type" value="Образовательная программа Design KIDS">
 						<button class="btn blue form__btn-send">ОСТАВИТЬ ЗАЯВКУ</button>
 						<p class="form__thanks">Заявка успешно отправлена!</p>
 					</form>

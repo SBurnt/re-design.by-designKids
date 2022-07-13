@@ -1,10 +1,19 @@
 .programs {
   overflow: hidden;
+
+	.section__title {
+		margin-bottom: 30px;
+	}
+
+  .section__subtitle {
+    margin-bottom: 30px;
+  }
+
   &__item {
     &:not(:last-child) {
       margin-bottom: 100px;
 
-			@include media("max", "md") {
+      @include media("max", "md") {
         margin-bottom: 50px;
       }
     }
@@ -17,6 +26,10 @@
 
       .programs__title {
         display: inline;
+
+        &::before {
+          background: url(../images/ico/figures/ico-flower-2.svg) no-repeat;
+        }
       }
     }
   }
@@ -31,12 +44,12 @@
 
   &__title {
     position: relative;
+    z-index: 1;
 
     margin-bottom: 13px;
 
     font-size: var(--fs-40-28);
     line-height: 120%;
-		z-index: 1;
 
     &::before {
       content: "";
@@ -76,8 +89,8 @@
     position: relative;
 
     display: none;
-    width: 34%;
-    max-height: 700px;
+    width: 40%;
+    max-height: 200px;
 
     @include media("min", "md") {
       display: block;
@@ -85,11 +98,11 @@
 
     .ico {
       position: absolute;
-      top: 55%;
+      top: 40%;
       right: -55px;
 
-      width: 130px;
-      height: 130px;
+      width: 100px;
+      height: 100px;
 
       @include media("max", "md") {
         top: -24px;
@@ -103,9 +116,9 @@
     &.mobile {
       display: block;
       width: 100%;
-      height: 400px;
-      max-height: 400px;
-			margin-bottom: 30px;
+      height: 300px;
+      max-height: 300px;
+      margin-bottom: 30px;
 
       @include media("min", "md") {
         display: none;
@@ -122,11 +135,11 @@
   }
 
   &__content {
-    width: 66%;
+    width: 60%;
 
-		@include media("max", "md") {
-			width: 100%;
-		}
+    @include media("max", "md") {
+      width: 100%;
+    }
   }
 
   .content {

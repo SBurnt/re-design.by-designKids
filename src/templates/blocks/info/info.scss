@@ -49,6 +49,14 @@
     color: $color-gray;
   }
 
+  &__text-top,
+  &__text-bottom {
+    &.empty {
+      visibility: hidden;
+      opacity: 0;
+    }
+  }
+
   &__num {
     width: max-content;
     margin-top: 5px;

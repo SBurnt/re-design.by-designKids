@@ -143,6 +143,7 @@
 
     font-size: var(--fs-32-24);
     line-height: 130%;
+    text-align: center;
   }
 
   &__subtitle {
@@ -164,5 +165,5 @@
 }
 
 #detach-button-host {
-	display: none;
+  display: none;
 }

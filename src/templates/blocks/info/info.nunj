@@ -3,26 +3,28 @@
 		<div class="info__wrapper br-60-30">
 			<ul class="info__list">
 				<li class="info__item">
-					<span class="info__num">4
-						<span class="info__num-text">смены</span></span>
-					<span class="info__text-bottom">с июня по август</span>
+					<span class="info__text-top">продолжительность программы</span>
+					<span class="info__num">1
+						<span class="info__num-text">год</span></span>
+					<span class="info__text-bottom"></span>
 				</li>
 				<li class="info__item">
-					<span class="info__num">2
-						<span class="info__num-text">недели</span></span>
-					<span class="info__text-bottom">одна смена</span>
+					<span class="info__text-top">творческих дисциплин</span>
+					<span class="info__num">5
+						<span class="info__num-text">направлений</span></span>
+					<span class="info__text-bottom"></span>
+				</li>
+				<li class="info__item">
+					<span class="info__text-top">для учеников</span>
+					<span class="info__num">2-3
+						<span class="info__num-text">классов</span></span>
+					<span class="info__text-bottom"></span>
 				</li>
 				<li class="info__item">
 					<span class="info__text-top">возраст учеников</span>
-					<span class="info__num">9-12
+					<span class="info__num">7-8
 						<span class="info__num-text">лет</span></span>
-					<span class="info__text-bottom">создание комиксов и анимации</span>
-				</li>
-				<li class="info__item">
-					<span class="info__text-top">возраст учеников</span>
-					<span class="info__num">13-15
-						<span class="info__num-text">лет</span></span>
-					<span class="info__text-bottom">современные дизайн профессии</span>
+					<span class="info__text-bottom"></span>
 				</li>
 			</ul>
 		</div>

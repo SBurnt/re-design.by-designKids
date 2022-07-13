@@ -1,9 +1,24 @@
 <section class="gallery">
 	<div class="container">
 		<div class="section__inner">
-			<h2 class="section__title">Как проходит лагерь</h2>
+			<h2 class="section__title">Как проходят занятия</h2>
 			<div class="gallery__slider">
-				<div class="swiper-container gallery__slider-thumbs js-slider-gallery-thumbs-init">
+				<ul class="swiper-slide gallery__list">
+					<!-- excursions -->
+					<li class="gallery__item br-60-30">
+						<img class="gallery__img lazyload" src="#" data-src="assets/images/main/gallery/1.jpg" width="700" height="510" loading="lazy" alt="фото Экскурсии в дизайн-компании">
+					</li>
+					<li class="gallery__item br-60-30">
+						<img class="gallery__img lazyload" src="#" data-src="assets/images/main/gallery/2.jpg" width="700" height="510" loading="lazy" alt="фото Экскурсии в дизайн-компании">
+					</li>
+					<li class="gallery__item br-60-30">
+						<img class="gallery__img lazyload" src="#" data-src="assets/images/main/gallery/3.jpg" width="700" height="510" loading="lazy" alt="фото Экскурсии в дизайн-компании">
+					</li>
+					<li class="gallery__item br-60-30">
+						<img class="gallery__img lazyload" src="#" data-src="assets/images/main/gallery/4.jpg" width="700" height="510" loading="lazy" alt="фото Экскурсии в дизайн-компании">
+					</li>
+				</ul>
+				{# <div class="swiper-container gallery__slider-thumbs js-slider-gallery-thumbs-init">
 					<ul class="swiper-wrapper gallery__list-thumbs">
 						<li class="swiper-slide gallery__item-thumbs">
 							<div class="gallery__img-wrap-thumbs">
@@ -30,8 +45,8 @@
 							<span class="gallery__text">Яркие впечатления</span>
 						</li>
 					</ul>
-				</div>
-				<div class="swiper-container gallery__slider-photo js-slider-gallery-init">
+				</div> #}
+				{# <div class="swiper-container gallery__slider-photo js-slider-gallery-init">
 					<div class="swiper-wrapper gallery__wrap">
 						<ul class="swiper-slide gallery__list">
 							<!-- excursions -->
@@ -88,7 +103,7 @@
 							</li>
 						</ul>
 					</div>
-				</div>
+				</div> #}
 			</div>
 		</div>
 	</div>

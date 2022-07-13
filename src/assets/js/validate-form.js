@@ -6,8 +6,8 @@ const telSelector = form.querySelector('.input-tel');
 const childSelector = form.querySelector('.input-child');
 const parentSelector = form.querySelector('.input-parent');
 const ageSelector = form.querySelector('.input-age');
-const changeSelector = form.querySelector('.input-change');
-const formatSelector = form.querySelector('.input-format');
+// const changeSelector = form.querySelector('.input-change');
+// const formatSelector = form.querySelector('.input-format');
 const inputMask = new Inputmask('+375 (99) 999-99-99');
 inputMask.mask(telSelector);
 
@@ -73,20 +73,20 @@ validation
 			errorMessage: 'Введите корректный телефон!',
 		},
 	])
-	.addField('.input-change', [
-		{
-			rule: 'required',
-			value: true,
-			errorMessage: 'Выберите смену!',
-		},
-	])
-	.addField('.input-format', [
-		{
-			rule: 'required',
-			value: true,
-			errorMessage: 'Выберите формат!',
-		},
-	])
+	// .addField('.input-change', [
+	// 	{
+	// 		rule: 'required',
+	// 		value: true,
+	// 		errorMessage: 'Выберите смену!',
+	// 	},
+	// ])
+	// .addField('.input-format', [
+	// 	{
+	// 		rule: 'required',
+	// 		value: true,
+	// 		errorMessage: 'Выберите формат!',
+	// 	},
+	// ])
 	.onSuccess(event => {
 		const formData = new FormData(event.target);
 		const xhr = new XMLHttpRequest();

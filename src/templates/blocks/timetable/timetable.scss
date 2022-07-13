@@ -13,7 +13,7 @@
     background-position-y: bottom;
     background-size: cover;
 
-		@include media("max", "md") {
+    @include media("max", "md") {
       margin-bottom: 30px;
     }
   }
@@ -24,6 +24,7 @@
   &__item {
     display: flex;
     flex-direction: column;
+    height: initial;
     padding: 36px 30px 15px;
 
     background: #ffffff;

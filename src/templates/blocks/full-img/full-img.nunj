@@ -9,13 +9,17 @@
 				</div>
 				<img class="full-img__ico sun lazyload" src="#" data-src="assets/images/ico/figures/ico-sun.svg" width="150" height="150" loading="lazy" alt="иконка">
 				<img class="full-img__ico flower lazyload" src="#" data-src="assets/images/ico/figures/ico-flower-3.svg" width="80" height="80" loading="lazy" alt="иконка">
-				<h2 class="full-img__title">Летний лагерь</h2>
-				<h2 class="full-img__subtitle">Design &
+				<h2 class="full-img__title">Образовательная программа</h2>
+				<h2 class="full-img__subtitle">Design
 					<span class='color'>
-						<span class="pink">A</span>
-						<span class="yellow">R</span>
-						<span>T</span>
-					</span><br> camp</h2>
+						<span class="pink">K</span>
+						<span class="yellow">I</span>
+						<span>D</span>
+						<span class='blue_light'>S</span>
+					</span>
+					<br>
+					<span class="full-img__title" style="display: block;">для учеников 2-3 классов</span>
+				</h2>
 				<button class="btn blue js-btn-scroll-to-form" data-scroll-block="form-scroll">УЗНАТЬ БОЛЬШЕ</button>
 			</div>
 		</div>

@@ -1,12 +1,12 @@
 <section class="activity">
 	<div class="container">
 		<div class="section__inner">
-			<h2 class="section__title">Активности</h2>
+			<h2 class="section__title">Направления</h2>
 			<div class="swiper-container js-slider-activity-init">
 				<ul class="swiper-wrapper activity__list">
 					<li class="swiper-slide activity__item spots spots-pink">
-						<img class="activity__img lazyload" src="#" data-src="assets/images/ico/figures/ico-sun.svg" width="75" height="75" loading="lazy" alt="иконка">
-						<span class="activity__title">Создание комиксов</span>
+						<img class="activity__img lazyload" src="#" data-src="assets/images/ico/figures/ico-pencil.svg" width="75" height="75" loading="lazy" alt="иконка">
+						<span class="activity__title">Изобразительное искусство</span>
 					</li>
 					<li class="swiper-slide activity__item spots spots-white-01">
 						<img class="activity__img lazyload" src="#" data-src="assets/images/ico/figures/ico-flower.svg" width="75" height="75" loading="lazy" alt="иконка">
@@ -14,31 +14,15 @@
 					</li>
 					<li class="swiper-slide activity__item spots spots-yellow">
 						<img class="activity__img lazyload" src="#" data-src="assets/images/ico/figures/ico-flower-2.svg" width="75" height="75" loading="lazy" alt="иконка">
-						<span class="activity__title">Создание стикерпака для мессенджера</span>
+						<span class="activity__title">Бумажная пластика</span>
 					</li>
 					<li class="swiper-slide activity__item spots spots-white-02">
 						<img class="activity__img lazyload" src="#" data-src="assets/images/ico/figures/ico-rainbow.svg" width="75" height="75" loading="lazy" alt="иконка">
-						<span class="activity__title">Полигональная графика</span>
+						<span class="activity__title">Современный комикс</span>
 					</li>
 					<li class="swiper-slide activity__item spots spots-blue">
-						<img class="activity__img lazyload" src="#" data-src="assets/images/ico/figures/ico-pencil.svg" width="75" height="75" loading="lazy" alt="иконка">
-						<span class="activity__title">Рисунок с использованием различных материалов</span>
-					</li>
-					<li class="swiper-slide activity__item spots spots-pink">
-						<img class="activity__img lazyload" src="#" data-src="assets/images/ico/figures/ico-photo.svg" width="75" height="75" loading="lazy" alt="иконка">
-						<span class="activity__title">Фотоманипуляции</span>
-					</li>
-					<li class="swiper-slide activity__item spots spots-white-01">
-						<img class="activity__img lazyload" src="#" data-src="assets/images/ico/figures/ico-flower.svg" width="75" height="75" loading="lazy" alt="иконка">
-						<span class="activity__title">Создание гравюр</span>
-					</li>
-					<li class="swiper-slide activity__item spots spots-yellow">
-						<img class="activity__img lazyload" src="#" data-src="assets/images/ico/figures/ico-flower-2.svg" width="75" height="75" loading="lazy" alt="иконка">
-						<span class="activity__title">Анимация</span>
-					</li>
-					<li class="swiper-slide activity__item spots spots-blue">
-						<img class="activity__img lazyload" src="#" data-src="assets/images/ico/figures/ico-cube.svg" width="75" height="75" loading="lazy" alt="иконка">
-						<span class="activity__title">Создание объекта в 3D</span>
+						<img class="activity__img lazyload" src="#" data-src="assets/images/ico/figures/ico-sun.svg" width="75" height="75" loading="lazy" alt="иконка">
+						<span class="activity__title">Скульптурная лепка</span>
 					</li>
 				</ul>
 			</div>
